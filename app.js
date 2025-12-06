@@ -66,5 +66,5 @@ app.delete("/api/products/:id", (req, res) => {
     products.splice(index, 1);
     res.json({ message: "Product deleted" });
 });
-
+//yuyguuut
 module.exports = app;
